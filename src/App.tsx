@@ -1,9 +1,15 @@
 import './styles/global.scss'
 
+import ContactList from './components/ContactList'
+import SimpleHeader from './components/SimpleHeader'
+import NavBar from './components/NavBar'
+
 export function App() {
   return (
-    <div>
-      <h1>Hello World</h1>
+    <div className="grid-container">
+      <SimpleHeader />
+      <ContactList />
+      <NavBar />
     </div>
   )
 }
