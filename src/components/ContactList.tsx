@@ -1,10 +1,15 @@
-import '../styles/contact-list.scss'
+import styled from 'styled-components'
 
 import { Contact } from './Contact'
 
+const StyledContactList = styled.div`
+  flex: auto;
+  overflow-y: auto;
+`
+
 export function ContactList() {
   return (
-    <div className="contact-list">
+    <StyledContactList>
       <Contact />
       <Contact />
       <Contact />
@@ -12,6 +17,6 @@ export function ContactList() {
       <Contact />
       <Contact />
       <Contact />
-    </div>
+    </StyledContactList>
   )
 }

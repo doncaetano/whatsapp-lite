@@ -1,4 +1,4 @@
-import './styles/global.scss'
+import './styles/global.css'
 
 import { ContactList } from './components/ContactList'
 import { SimpleHeader } from './components/SimpleHeader'
