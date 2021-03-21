@@ -1,6 +1,6 @@
 import '../styles/nav-bar.scss'
 
-export default function NavBar() {
+export function NavBar() {
   return (
     <div className="nav-bar-container">
       <div className="nav-bar">

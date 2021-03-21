@@ -1,4 +1,4 @@
-export default function Contact() {
+export function Contact() {
   return (
     <div className="contact-box">
       <img src="/images/profile-image-1.png" alt="" />

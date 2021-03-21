@@ -1,8 +1,8 @@
 import '../styles/contact-list.scss'
 
-import Contact from './Contact'
+import { Contact } from './Contact'
 
-export default function ContactList() {
+export function ContactList() {
   return (
     <div className="contact-list">
       <Contact />
