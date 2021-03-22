@@ -1,6 +1,6 @@
 import styled from 'styled-components'
 
-const StyledContactBox = styled.div`
+export const StyledContactBox = styled.div`
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -38,18 +38,3 @@ const StyledContactBox = styled.div`
     align-items: center;
   }
 `
-export function Contact() {
-  return (
-    <StyledContactBox>
-      <img src="/images/profile-image-1.png" alt="" />
-      <div className="message-block">
-        <h4 className="profile-name">Name Last Name</h4>
-        <p className="message">some test message</p>
-      </div>
-      <div className="notification-block">
-        <p>00:00</p>
-        <p>2</p>
-      </div>
-    </StyledContactBox>
-  )
-}

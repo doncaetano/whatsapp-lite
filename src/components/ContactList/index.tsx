@@ -1,11 +1,6 @@
-import styled from 'styled-components'
+import { StyledContactList } from './styles'
 
-import { Contact } from './Contact'
-
-const StyledContactList = styled.div`
-  flex: auto;
-  overflow-y: auto;
-`
+import { Contact } from '../Contact'
 
 export function ContactList() {
   return (
