@@ -1,1 +1,1 @@
-# whatsapp-lite front end
+# whatsapp-lite frontend
