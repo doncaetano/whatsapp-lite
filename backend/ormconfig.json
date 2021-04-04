@@ -1,0 +1,17 @@
+{
+  "username": "su",
+  "password": "password",
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "database": "whatsapplite",
+  "entities": [
+    "./src/infra/repo/orm/typeorm/entities/*.ts"
+  ],
+  "migrations": [
+    "./src/infra/repo/orm/typeorm/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationsDir": "./src/infra/repo/orm/typeorm/migrations"
+  }
+}
