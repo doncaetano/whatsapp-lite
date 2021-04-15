@@ -7,7 +7,7 @@ export const StyledContactBox = styled.div`
   padding: 0.75rem 0;
   border-bottom: 1px solid var(--light-gray-2);
 
-  img {
+  > img {
     display: block;
     max-width: 55px;
     max-height: 55px;
@@ -35,6 +35,18 @@ export const StyledContactBox = styled.div`
     font-size: 14px;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
+
+    .countBox {
+      display: inline-block;
+      font-size: 12px;
+      background: var(--green);
+      border-radius: 42%;
+      text-align: center;
+      padding: 0 0.3rem;
+      min-width: 1.2rem;
+      font-weight: 600;
+      color: var(--white);
+    }
   }
 `
